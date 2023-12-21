@@ -1,0 +1,59 @@
+/* Estilos CSS para la card */
+
+.card {
+  display: flex;
+  color: #93B1A6;
+  flex-direction: column;
+  border: 1px solid #27374d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  width: 90%; /* Ancho de la card */
+  max-width: 800px; /* Ancho máximo */
+  padding: 30px; /* Aumenta el padding para mayor tamaño */
+  background-color: #183D3D; /* Color de fondo de la card */
+  margin: auto; /* Centrar la card horizontalmente */
+  margin-bottom:4rem ;
+}
+.card:hover{
+  box-shadow:5px 10px 20px 1px rgba(255,255, 255, 0.273) ;
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  display: flex;
+}
+
+.carousel-container {
+  width: 50%; /* Ancho para el carrusel */
+}
+
+.carousel {
+  width: 100%;
+}
+
+.details-container {
+  width: 50%; /* Ancho para los detalles */
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    flex-direction: column; /* Cambio a columna para dispositivos más pequeños */
+  }
+
+  .carousel-container,
+  .details-container {
+    width: 100%; /* Ocupar todo el ancho disponible */
+  }
+
+  .details-container {
+    padding: 10px; /* Reducir el espacio entre los detalles */
+  }
+}
