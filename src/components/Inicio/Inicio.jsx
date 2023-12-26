@@ -2,9 +2,9 @@ import React from "react";
 import "./Inicio.css";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
-import LOCAL from "../../../public/LOCAL.jpg";
+import invierno2024 from "../../../public/invierno2024.png";
 
-const images = [{ id: 8, src: LOCAL, to: "/Inv2024" }];
+const images = [{ id: 8, src: invierno2024, to: "/Inv2024" }];
 
 const Inicio = () => {
   return (

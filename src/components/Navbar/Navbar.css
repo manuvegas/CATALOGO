@@ -6,7 +6,13 @@
   border-radius: 4px;
   padding: 5px;
 }
+/* Estilos para hacer fijo el elemento ARTICULOS */
 
+.navbarInv {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
 .navbarInv {
   display: flex;
