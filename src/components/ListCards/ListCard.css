@@ -1,0 +1,156 @@
+.cardNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.custom-card-container {
+  padding: 20px;
+  color: white;
+  display: flex;
+  width:750px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-card-content {
+  display: flex;
+  flex: 1;
+}
+
+.custom-card-image-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.custom-card-image {
+  object-fit: cover;
+  width: 60%;
+  height: 35rem;
+  display: block;
+}
+
+.custom-card-text {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column; /* Apila los elementos en dispositivos móviles */
+}
+.custom-container-article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-card-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+.custom-card-article-list {
+  font-size: 1.7rem;
+  padding: 8px 8px;
+  display: inline-block;
+  background-color: rgb(13, 13, 13);
+}
+
+.custom-card-article {
+  margin-left: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.custom-btn-colapso {
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: rgb(13, 13, 13);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.custom-card-talles {
+  padding: 8px 8px;
+  font-size: 1.7rem;
+  background-color: rgb(13, 13, 13);
+  display: inline;
+}
+
+.custom-card-talle-list {
+  padding: 8px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.custom-card-colors {
+  padding: 8px 8px;
+  background-color: rgb(13, 13, 13);
+
+  display: flex;
+  flex-direction: column;
+}
+.custom-card-colors-title {
+  font-size: 1.7rem;
+}
+
+.custom-color-circles {
+  display: flex;
+  margin-top: 5px;
+}
+
+.custom-color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/*CARRUSEL*/
+.custom-carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.custom-carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.custom-carousel-image {
+  object-fit: cover;
+  width: 100%; 
+  max-width: 100%;
+  height: 35rem;
+}
+
+.custom-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.custom-carousel-dot {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-carousel-dot img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.custom-carousel-dot.active {
+  background-color: #333;
+}
+

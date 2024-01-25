@@ -1,33 +1,19 @@
-.tituloInicio {
+.titulo{
   color: white;
   text-align: center;
   margin-top: 3rem;
   font-weight: 900;
   font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.tituloInicio::after {
-  flex-grow: 1;
-  height: 1px;
-  content: "\a0";
-  background-color: #ffffff;
-  position: relative;
-  top: 0.5em;
-}
-.tituloInicio::before {
-  flex-grow: 1;
-  height: 1px;
-  content: "\a0";
-  background-color: #ffffff;
-  position: relative;
-  top: 0.5em;
-}
 
 .sectionInicio {
-  width: 50%;
-  margin: 0 auto;
+  padding: 20px;
+  max-width: 700px;
+  margin:0 auto;
 }
 
 .carouselInicio {
@@ -40,38 +26,20 @@
 }
 
 @media (max-width: 576px) {
-  .tituloInicio {
-    font-size: 1.5rem;
-  }
-
-  .sectionInicio {
-    width: 70%;
+  .titulo{
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 576px) {
-  .tituloInicio {
-    font-size: 1.8rem;
-  }
-
-  .sectionInicio {
-    width: 70%;
+  .titulo{
+    font-size: 3rem;
   }
 }
 @media (min-width: 768px) {
-  .tituloInicio {
-    font-size: 2rem;
-  }
-
-  .sectionInicio {
-    width: 75%;
+  .titulo{
+    font-size: 4rem;
   }
 }
 @media (min-width: 992px) {
-  .tituloInicio {
-    font-size: 2.3rem;
-  }
 
-  .sectionInicio {
-    width: 65%;
-  }
 }

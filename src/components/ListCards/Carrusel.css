@@ -1,0 +1,42 @@
+.custom-carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.custom-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.custom-carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-carousel-dot img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.custom-carousel-dot.active {
+  background-color: #333;
+}

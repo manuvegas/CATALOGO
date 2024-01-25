@@ -2,14 +2,14 @@ import React from "react";
 import "./Inicio.css";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
-import invierno2024 from "../../../public/invierno2024.png";
+import { v4 as uuidv4 } from 'uuid';
 
-const images = [{ id: 8, src: invierno2024, to: "/Inv2024" }];
+const images = [{ id: uuidv4(), src: "/CATALOGO/invierno2024.png", to: "/Inv2024-Home" }];
 
 const Inicio = () => {
   return (
     <main>
-      <h1 className="tituloInicio">FOREST TEX</h1>
+      <h1 className="titulo">FOREST TEX</h1>
       <section className="sectionInicio">
         <Carousel className="carouselInicio">
           {images.map((image) => (
