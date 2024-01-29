@@ -1,63 +1,16 @@
 import React from "react";
 import ListCard from "./ListCard";
-
-const friza = [
-  {
-    titulo: "PRENDA",
-    imgs: "prenda.jpeg",
-    precio: 20,
-    articulo: "230",
-    descripcion: "",
-    material: "",
-    talles:"S M L XL XXL",
-    color: "WHITE",
-  },
-  {
-    titulo: "PRENDA",
-    imgs: "prenda.jpeg",
-    precio: 20,
-    articulo: "230",
-    descripcion: "",
-    material: "",
-    talles:"S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
-  },
-  {
-    titulo: "PRENDA",
-    imgs: "prenda.jpeg",
-    precio: 20,
-    articulo: "230",
-    descripcion: "",
-    material: "",
-    talles:"S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
-  },
-  {
-    titulo: "PRENDA",
-    imgs: "prenda.jpeg",
-    precio: 20,
-    articulo: "230",
-    descripcion: "",
-    material: "",
-    talles:"S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
-  },
-  {
-    titulo: "PRENDA",
-    imgs: "prenda.jpeg",
-    precio: 20,
-    articulo: "230",
-    descripcion: "",
-    material: "",
-    talles:"S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
-  },
-];
+import { prendas } from "./Prendas"
+import { useParams } from "react-router-dom";
 
 const ListFriza = () => {
+  let {cardId} = useParams()
+  let categorias =prendas.filter((prenda) => prenda.id === cardId);
+
   return (
+    <>
     <nav className="cardNav">
-      {friza.map((item, index) => (
+      {prendas.map((item, index) => (
        <ListCard
        id={item.id}
        titulo={item.titulo}
@@ -71,7 +24,7 @@ const ListFriza = () => {
        key={index}
      />
       ))}
-    </nav>
+    </nav></>
   );
 };
 

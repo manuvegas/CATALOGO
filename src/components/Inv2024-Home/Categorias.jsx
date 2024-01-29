@@ -6,7 +6,27 @@ const secciones = [
   {
     id: uuidv4(),
     img: "./prenda.jpeg",
-    titulo: "JERSEY",
+    titulo: "REMERAS",
+  },
+  {
+    id: uuidv4(),
+    img: "./prenda.jpeg",
+    titulo: "CHOMBAS LIZAS JERSEY-PIQUE",
+  },
+  {
+    id: uuidv4(),
+    img: "./prenda.jpeg",
+    titulo: "CHOMBA RAYADA 24/1",
+  },
+  {
+    id: uuidv4(),
+    img: "./prenda.jpeg",
+    titulo: "CHOMBA RAYADA JERSEY-DOBLE",
+  },
+  {
+    id: uuidv4(),
+    img: "./prenda.jpeg",
+    titulo: "CHOMBA PIQUE RAYADO",
   },
   {
     id: uuidv4(),
@@ -16,17 +36,7 @@ const secciones = [
   {
     id: uuidv4(),
     img: "./prenda.jpeg",
-    titulo: "PIQUE",
-  },
-  {
-    id: uuidv4(),
-    img: "./prenda.jpeg",
-    titulo: "ALH",
-  },
-  {
-    id: uuidv4(),
-    img: "./prenda.jpeg",
-    titulo: "POLAR",
+    titulo: "PUNTO",
   },
 ];
 const Categorias = () => {
@@ -40,9 +50,6 @@ const Categorias = () => {
             titulo={item.titulo}
             img={item.img}
             key={index}
-            routeTo={`/List${item.titulo.charAt(0).toUpperCase()}${item.titulo
-              .slice(1)
-              .toLowerCase()}`}
           />
         ))}
       </nav>

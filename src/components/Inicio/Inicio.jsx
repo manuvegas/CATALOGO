@@ -9,7 +9,7 @@ const images = [{ id: uuidv4(), src: "/CATALOGO/invierno2024.png", to: "/Inv2024
 const Inicio = () => {
   return (
     <main>
-      <h1 className="titulo">FOREST TEX</h1>
+      <h1 className="titulo"><img src="" alt="" />FOREST TEX <img src="" alt="" /></h1>
       <section className="sectionInicio">
         <Carousel className="carouselInicio">
           {images.map((image) => (

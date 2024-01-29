@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Inicio, Categorias, ListFriza, ListPolar, ListPique, ListJersey, ListAlh } from "./components";
+import { Inicio, Categorias,ListFriza } from "./components";
 
 
 function App() {
@@ -12,11 +12,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio/>}/>
             <Route path="/Inv2024-Home" element={<Categorias/>}/>
-            <Route path="/ListFriza" element={<ListFriza/>}/>
-            <Route path="/ListPolar" element={<ListPolar/>}/>
-            <Route path="/ListPique" element={<ListPique/>}/>
-            <Route path="/ListJersey" element={<ListJersey/>}/>
-            <Route path="/ListAlh" element={<ListAlh/>}/>
+            <Route path="/ListCards/:cardId" element={<ListFriza/>}/>
 
 
           </Routes>

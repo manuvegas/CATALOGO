@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Card.css";
 
-const Card = ({titulo,img,routeTo}) => {
+const Card = ({titulo,img,id}) => {
   return (
     <>
       <div className="Card">
-        <Link to={routeTo} className="card-link">
+        <Link to={`/ListCards/${id}`} className="card-link">
           <div className="card-image-container">
             <img src={img} alt={titulo} className="card-image" />
           </div>
