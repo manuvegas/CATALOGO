@@ -18,8 +18,8 @@ const ListFriza = () => {
        imgs={item.imgs}
        descripcion={item.descripcion}
        material={item.material}
-       talles={item.talles}
        articulo={item.articulo}
+       paleta={item.paleta}
        color={item.color}
        key={index}
      />

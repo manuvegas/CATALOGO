@@ -2,14 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
 }
 .custom-card-container {
   padding: 20px;
   color: white;
   display: flex;
-  width:750px;
+  width: 750px;
   margin: 20px auto;
   box-shadow: 0 4px 10px rgb(0, 0, 0);
   border-radius: 8px;
@@ -28,7 +26,7 @@
 
 .custom-card-image {
   object-fit: cover;
-  width: 60%;
+  width: 80%;
   height: 35rem;
   display: block;
 }
@@ -46,12 +44,12 @@
 }
 
 .custom-card-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 900;
   text-align: center;
 }
 .custom-card-article-list {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   padding: 8px 8px;
   display: inline-block;
   background-color: rgb(13, 13, 13);
@@ -59,7 +57,7 @@
 
 .custom-card-article {
   margin-left: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -71,22 +69,9 @@
   margin-bottom: 20px;
 }
 
-.custom-card-talles {
-  padding: 8px 8px;
-  font-size: 1.7rem;
-  background-color: rgb(13, 13, 13);
-  display: inline;
-}
-
-.custom-card-talle-list {
-  padding: 8px;
-  font-weight: 700;
-  font-size: 1.3rem;
-}
 .custom-card-colors {
   padding: 8px 8px;
   background-color: rgb(13, 13, 13);
-
   display: flex;
   flex-direction: column;
 }
@@ -117,13 +102,14 @@
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
+  position: relative;
 }
 
 .custom-carousel-image {
   object-fit: cover;
-  width: 100%; 
-  max-width: 100%;
+  width: 100%;
   height: 35rem;
+  flex-shrink: 0;
 }
 
 .custom-carousel-dots {
@@ -154,3 +140,71 @@
   background-color: #333;
 }
 
+.color-palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-box {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .custom-card-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .custom-card-content {
+    flex-direction: column;
+  }
+
+  .custom-card-image {
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+  }
+
+  .custom-card-text {
+    padding: 10px;
+    box-sizing: border-box; /* Asegura que el padding no incremente el tamaño total */
+  }
+
+  .custom-card-title {
+    font-size: 1.5rem;
+    text-align: center; /* Centra el texto */
+  }
+
+  .custom-card-article-list,
+  .custom-card-article,
+  .custom-btn-colapso,
+  .custom-card-colors-title {
+    font-size: 1rem;
+    margin: 5px 0; /* Añade un pequeño margen entre elementos */
+  }
+
+  .custom-color-circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .custom-carousel-container {
+    width: 100%;
+  }
+
+  .custom-carousel-images {
+    width: 100%;
+  }
+
+  .custom-carousel-dot {
+    width: 25px;
+    height: 25px;
+  }
+
+  .custom-carousel-image {
+    height: auto;
+  }
+}

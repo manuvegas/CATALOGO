@@ -9,7 +9,6 @@ export const prendas = [
     articulo: "131",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
     color: [
       "BLACK",
       "BLUE",
@@ -27,7 +26,6 @@ export const prendas = [
     articulo: "143",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
     color: ["BLACK", "#AC9C7D", "#A6ACAF"],
   },
   {
@@ -37,7 +35,6 @@ export const prendas = [
     articulo: "144",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
     color: ["BLACK", "#AC9C7D", "#A6ACAF"],
   },
 
@@ -50,7 +47,6 @@ export const prendas = [
     articulo: "150",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
     color: ["BLACK", "BLUE", "#00FBFF", "#013619 ", "#FFE800"],
   },
   {
@@ -60,7 +56,6 @@ export const prendas = [
     articulo: "151",
     descripcion: "",
     material: "",
-    talles: "S M L XL XXL",
     color: ["", "", "", ""],
   },
   {
@@ -70,7 +65,6 @@ export const prendas = [
     articulo: "152",
     descripcion: "",
     material: "",
-    talles: "S M L XL XXL",
     color: ["", "", "", ""],
   },
   {
@@ -80,7 +74,6 @@ export const prendas = [
     articulo: "153",
     descripcion: "",
     material: "OTTOMAN",
-    talles: "S M L XL XXL",
     color: ["BLACK", ""],
   },
   {
@@ -90,7 +83,6 @@ export const prendas = [
     articulo: "154",
     descripcion: "",
     material: "JERSEY SNOWDON",
-    talles: "S M L XL XXL",
     color: ["BLACK", "BLUE", "#370301", "GREEN"],
   },
   {
@@ -100,7 +92,6 @@ export const prendas = [
     articulo: "155",
     descripcion: "",
     material: "JERSEY ARTIZAN",
-    talles: "S M L XL XXL",
     color: ["BLACK", "BLUE", "#013619 ", "#CDB370", "#2A2004"],
   },
   {
@@ -110,7 +101,6 @@ export const prendas = [
     articulo: "156",
     descripcion: "",
     material: "JERSEY FREEDOM",
-    talles: "S M L XL XXL",
     color: ["BLACK", "BLUE", "#2A2A2A", "#225E06"],
   },
 
@@ -123,8 +113,7 @@ export const prendas = [
     articulo: "201",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
-    color: "WHITE",
+    paleta: "WHITE",
   },
   {
     id: uuidv4(),
@@ -133,8 +122,7 @@ export const prendas = [
     articulo: "202",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
+    paleta: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
   },
   {
     id: uuidv4(),
@@ -143,8 +131,7 @@ export const prendas = [
     articulo: "203",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
+    paleta: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
   },
   {
     id: uuidv4(),
@@ -153,7 +140,6 @@ export const prendas = [
     articulo: "204",
     descripcion: "",
     material: "JERSEY",
-    talles: "S M L XL XXL",
-    color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
+    paleta: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
   },
 ];

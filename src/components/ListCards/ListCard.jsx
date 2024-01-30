@@ -4,11 +4,11 @@ import "./ListCard.css";
 const ListCard = ({
   titulo,
   color,
+  paleta,
   imgs,
   articulo,
   descripcion,
   material,
-  talles,
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [descripcionColapsoAbierto, setDescripcionColapsoAbierto] =
@@ -17,13 +17,11 @@ const ListCard = ({
 
   const toggleDescripcionColapso = () => {
     setDescripcionColapsoAbierto(!descripcionColapsoAbierto);
-    // Cierra el otro colapso si está abierto
     setMaterialColapsoAbierto(false);
   };
 
   const toggleMaterialColapso = () => {
     setMaterialColapsoAbierto(!materialColapsoAbierto);
-    // Cierra el otro colapso si está abierto
     setDescripcionColapsoAbierto(false);
   };
 
@@ -121,14 +119,24 @@ const ListCard = ({
             </div>
           </div>
 
-          <div>
-            <h4 className="custom-card-talles">TALLES:</h4>
-            <p className="custom-card-talle-list">{talles}</p>
-          </div>
+          {/* Paleta de Colores o Colores en Stock */}
           <div className="custom-card-colors">
-            <h4 className="custom-card-colors-title">COLORES EN STOCK:</h4>
+            <h4 className="custom-card-colors-title">
+              {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}
+            </h4>
+            {paleta && Array.isArray(paleta) ? (
+              <div className="color-palette">
+              {paleta.map((color, index) => (
+                <div
+                  key={index}
+                  className="color-box"
+                  style={{ backgroundColor: color.toLowerCase() }}
+                ></div>
+              ))}
+            </div>
+          ) : (
             <div className="custom-color-circles">
-              {color && Array.isArray(color) ? (
+              {Array.isArray(color) ? (
                 color.map((c, index) => (
                   <div
                     key={index}
@@ -140,18 +148,17 @@ const ListCard = ({
                 <div
                   className="custom-color-circle"
                   style={{
-                    backgroundColor: color
-                      ? color.toLowerCase()
-                      : "transparent",
+                    backgroundColor: color ? color.toLowerCase() : "transparent",
                   }}
                 ></div>
               )}
             </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
-  );
+  </div>
+);
 };
 
 export default ListCard;
