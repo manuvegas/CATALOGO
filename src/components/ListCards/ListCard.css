@@ -7,7 +7,7 @@
   padding: 20px;
   color: white;
   display: flex;
-  width: 750px;
+  width: 550px;
   margin: 20px auto;
   box-shadow: 0 4px 10px rgb(0, 0, 0);
   border-radius: 8px;
@@ -16,6 +16,7 @@
 
 .custom-card-content {
   display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
@@ -26,14 +27,14 @@
 
 .custom-card-image {
   object-fit: cover;
-  width: 80%;
-  height: 35rem;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
 .custom-card-text {
   flex: 1;
-  padding: 16px;
+  padding: 18px;
   display: flex;
   flex-direction: column; /* Apila los elementos en dispositivos móviles */
 }
@@ -78,6 +79,13 @@
 .custom-card-colors-title {
   font-size: 1.7rem;
 }
+.custom-color-circles-container {
+  display: flex;
+
+  flex-wrap: wrap;
+  max-height: 90px; /* Altura máxima del contenedor */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
 
 .custom-color-circles {
   display: flex;
@@ -89,6 +97,7 @@
   height: 30px;
   border-radius: 50%;
   margin-right: 8px;
+  margin-bottom: 10px;
 }
 
 /*CARRUSEL*/
@@ -108,7 +117,7 @@
 .custom-carousel-image {
   object-fit: cover;
   width: 100%;
-  height: 35rem;
+  height: auto;
   flex-shrink: 0;
 }
 
