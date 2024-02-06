@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import ListPrendas from "../ListCards/ListPrendas";
+import "animate.css/animate.min.css";
 import Card from "./Card";
 
 const secciones = [
@@ -17,7 +17,7 @@ const secciones = [
   {
     id: uuidv4(),
     img: "./prenda.jpeg",
-    titulo: "CHOMBA RAYADA-24/1",
+    titulo: "CHOMBA RAYADA",
   },
   {
     id: uuidv4(),
@@ -49,7 +49,7 @@ const Categorias = () => {
   return (
     <>
       <h2 className="titulo">INVIERNO 2024</h2>
-      <nav className="categoriaNav">
+      <nav className="categoriaNav animate__animated animate__fadeInLeft">
         {secciones.map((item, index) => (
           <Card id={item.id} titulo={item.titulo} img={item.img} key={index} />
         ))}

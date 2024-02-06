@@ -4,6 +4,8 @@
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
   gap: 50px;
 }
 .Card {

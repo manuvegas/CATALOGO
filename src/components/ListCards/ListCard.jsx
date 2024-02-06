@@ -85,7 +85,7 @@ const ListCard = ({
   };
 
   return (
-    <div className="custom-card-container">
+    <div className="custom-card-container animate__animated animate__fadeInLeft">
       <div className="custom-card-content">
         {renderImages()}
         <div className="custom-card-text">

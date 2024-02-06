@@ -110,7 +110,7 @@
   {
     "id": "11",
     "titulo": "CHOMBA RAYADA 24/1",
-    "categoriaId": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA",
     "imgs": ["../prenda.jpeg", "../prenda1.jpeg", "../prenda.jpeg"],
     "articulo": "201",
     "descripcion": "",
@@ -120,7 +120,7 @@
   {
     "id": "12",
     "titulo": "CHOMBA RAYADA 24/1",
-    "categoriaId": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA",
     "imgs": "../prenda.jpeg",
     "articulo": "202",
     "descripcion": "",
@@ -130,7 +130,7 @@
   {
     "id": "13",
     "titulo": "CHOMBA RAYADA 24/1",
-    "categoriaId": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA",
     "imgs": ["../prenda.jpeg", "../prenda1.jpeg", "../prenda.jpeg"],
     "articulo": "203",
     "descripcion": "",
@@ -140,7 +140,7 @@
   {
     "id": "14",
     "titulo": "CHOMBA RAYADA 24/1",
-    "categoriaId": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA",
     "imgs": "../prenda.jpeg",
     "articulo": "204",
     "descripcion": "",
