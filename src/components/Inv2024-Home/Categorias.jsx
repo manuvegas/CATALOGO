@@ -1,5 +1,6 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
+import ListPrendas from "../ListCards/ListPrendas";
 import Card from "./Card";
 
 const secciones = [
@@ -16,7 +17,7 @@ const secciones = [
   {
     id: uuidv4(),
     img: "./prenda.jpeg",
-    titulo: "CHOMBA RAYADA 24/1",
+    titulo: "CHOMBA RAYADA-24/1",
   },
   {
     id: uuidv4(),
@@ -36,8 +37,13 @@ const secciones = [
   {
     id: uuidv4(),
     img: "./prenda.jpeg",
-    titulo: "PUNTO",
+    titulo: "POLAR",
   },
+  {
+    id: uuidv4(),
+    img: "./prenda.jpeg",
+    titulo: "PUNTO",
+  }
 ];
 const Categorias = () => {
   return (
@@ -45,12 +51,7 @@ const Categorias = () => {
       <h2 className="titulo">INVIERNO 2024</h2>
       <nav className="categoriaNav">
         {secciones.map((item, index) => (
-          <Card
-            id={item.id}
-            titulo={item.titulo}
-            img={item.img}
-            key={index}
-          />
+          <Card id={item.id} titulo={item.titulo} img={item.img} key={index} />
         ))}
       </nav>
     </>

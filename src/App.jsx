@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Inicio, Categorias, ListFriza } from "./components";
+import { Inicio, Categorias, ListPrendas } from "./components";
 
 
 
@@ -13,7 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/Inv2024-Home" element={<Categorias />} />
-            <Route path="/ListCards/:id" element={<ListFriza/>} />
+            <Route path="/ListPrendas/:titulo" element={<ListPrendas/>} />
           </Routes>
         </div>
       </Router>

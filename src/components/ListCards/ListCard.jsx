@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./ListCard.css";
 
-
-
 const ListCard = ({
   titulo,
   color,

@@ -1,7 +1,7 @@
 import Inicio from "./Inicio/Inicio";
 import Categorias from "./Inv2024-Home/Categorias";
-import ListFriza from "./ListCards/ListFriza";
+import ListPrendas from "./ListCards/ListPrendas";
 
 
 
-export {Inicio,Categorias,ListFriza}
+export {Inicio,Categorias,ListPrendas}

@@ -569,5 +569,3 @@ export const prendas = [
     color: ["WHITE", "BLACK", "BLUE", "MOSTAZA"],
   },
 ];
-
-

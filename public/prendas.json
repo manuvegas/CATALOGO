@@ -1,0 +1,550 @@
+[
+  {
+    "id": "1",
+    "titulo": "REMERA LISA",
+    "categoriaId": "REMERAS",
+    "imgs": "../prenda.jpeg",
+    "articulo": "131",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": [
+      "BLACK",
+      "BLUE",
+      "#7D6608",
+      "#013619 ",
+      "#370301",
+      "#53B981",
+      "#F1948A"
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "REMERA PANAL",
+    "categoriaId": "REMERAS",
+    "imgs": "../prenda.jpeg",
+    "articulo": "143",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["BLACK", "#AC9C7D", "#A6ACAF"]
+  },
+  {
+    "id": "3",
+    "titulo": "REMERA",
+    "categoriaId": "REMERAS",
+    "imgs": "../prenda.jpeg",
+    "articulo": "144",
+    "descripcion": "REMERA CON CARTERA PANAL",
+    "material": "JERSEY",
+    "color": ["BLACK", "#AC9C7D", "#A6ACAF"]
+  },
+  {
+    "id": "4",
+    "titulo": "CHOMBA LISA",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "150",
+    "descripcion": "CHOMBA LISA CON CUELLO VIVO",
+    "material": "JERSEY",
+    "color": ["BLACK", "BLUE", "#00FBFF", "#013619 ", "#FFE800"]
+  },
+  {
+    "id": "5",
+    "titulo": "",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "151",
+    "descripcion": "",
+    "material": "",
+    "color": ["", "", "", ""]
+  },
+  {
+    "id": "6",
+    "titulo": "",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "152",
+    "descripcion": "",
+    "material": "",
+    "color": ["", "", "", ""]
+  },
+  {
+    "id": "7",
+    "titulo": "CHOMBA 1/2 CIERRE",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "153",
+    "descripcion": "",
+    "material": "OTTOMAN",
+    "color": ["BLACK", ""]
+  },
+  {
+    "id": "8",
+    "titulo": "CHOMBA LISA",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "154",
+    "descripcion": "",
+    "material": "JERSEY SNOWDON",
+    "color": ["BLACK", "BLUE", "#370301", "GREEN"]
+  },
+  {
+    "id": "9",
+    "titulo": "CHOMBA LISA",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "155",
+    "descripcion": "",
+    "material": "JERSEY ARTIZAN",
+    "color": ["BLACK", "BLUE", "#013619 ", "#CDB370", "#2A2004"]
+  },
+  {
+    "id": "10",
+    "titulo": "CHOMBA 1/2 CIERRE",
+    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "156",
+    "descripcion": "",
+    "material": "JERSEY FREEDOM",
+    "color": ["BLACK", "BLUE", "#2A2A2A", "#225E06"]
+  },
+  {
+    "id": "11",
+    "titulo": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA 24/1",
+    "imgs": ["../prenda.jpeg", "../prenda1.jpeg", "../prenda.jpeg"],
+    "articulo": "201",
+    "descripcion": "",
+    "material": "JERSEY",
+    "paleta": "WHITE"
+  },
+  {
+    "id": "12",
+    "titulo": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA 24/1",
+    "imgs": "../prenda.jpeg",
+    "articulo": "202",
+    "descripcion": "",
+    "material": "JERSEY",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "13",
+    "titulo": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA 24/1",
+    "imgs": ["../prenda.jpeg", "../prenda1.jpeg", "../prenda.jpeg"],
+    "articulo": "203",
+    "descripcion": "",
+    "material": "JERSEY",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "14",
+    "titulo": "CHOMBA RAYADA 24/1",
+    "categoriaId": "CHOMBA RAYADA 24/1",
+    "imgs": "../prenda.jpeg",
+    "articulo": "204",
+    "descripcion": "",
+    "material": "JERSEY",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "15",
+    "titulo": "CHOMBA RAYADA",
+    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "207",
+    "descripcion": "",
+    "material": "JERSEY DOBLE",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "16",
+    "titulo": "CHOMBA RAYADA",
+    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "208",
+    "descripcion": "",
+    "material": "JERSEY DOBLE",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "17",
+    "titulo": "CHOMBA RAYADA ",
+    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "imgs": "../prenda.jpeg",
+    "articulo": "209",
+    "descripcion": "",
+    "material": "JERSEY DOBLE",
+    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "18",
+    "titulo": "CHOMBA RAYADA",
+    "categoriaId": "CHOMBA PIQUE RAYADO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "204",
+    "descripcion": "",
+    "material": "PIQUE",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "19",
+    "titulo": "MEDIO CIERRE",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "431",
+    "descripcion": "CUELLO RAYADO SIN BOLSILLO",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "20",
+    "titulo": "MEDIO CIERRE ",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "434",
+    "descripcion": "",
+    "material": "FRIZA ESTAMPADA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "21",
+    "titulo": "BUZO",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "435",
+    "descripcion": "BUZO CUELLO ALTO CON BOTONES",
+    "material": "FRIZA SNOW",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "22",
+    "titulo": "CAMPERA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "470",
+    "descripcion": "CAMPERA UNIVERSITARIA",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "23",
+    "titulo": "CAMPERA GAMUZADA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "471",
+    "descripcion": "CAMPERA GAMUZADA ESTAMPADA",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "24",
+    "titulo": "CAMPERA C/CAPUCHA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "472",
+    "descripcion": "CAMPERA CON CAPUCHA LISO",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "25",
+    "titulo": "CHOMBA FRIZA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "473",
+    "descripcion": "",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "26",
+    "titulo": "CAMPERA ESTAMPADA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "474",
+    "descripcion": "",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "27",
+    "titulo": "CAMPERA ESCOCESA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "475",
+    "descripcion": "CAMPERA ESTILO ESCOCESA",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "28",
+    "titulo": "CAMPERA ESTAMPADA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "476",
+    "descripcion": "",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "29",
+    "titulo": "CAMPERA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "478",
+    "descripcion": "CAMPERA CUELLO BAJO",
+    "material": "MATELASSE BRICK",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "30",
+    "titulo": "CAMPERA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "479",
+    "descripcion": "CAMPERA CON CUELLO INTERIOR CONTRATONO",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "31",
+    "titulo": "CAMPERA",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "480",
+    "descripcion": "CAMPERA CUELLO ALTO",
+    "material": "MATELASSE BRICK",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "32",
+    "titulo": "BUZO",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "601",
+    "descripcion": "BUZO CUELLO REDONDO CUADRILLE",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "33",
+    "titulo": "BUZO LISO",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "602",
+    "descripcion": "BUZO CUELLO REDONDO LISO",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "34",
+    "titulo": "JOGGUIN",
+    "categoriaId": "FRIZA",
+    "imgs": "../prenda.jpeg",
+    "articulo": "608",
+    "descripcion": "PANTALON JOGGUIN SEMI-RECTO",
+    "material": "FRIZA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "35",
+    "titulo": "POLAR",
+    "categoriaId": "POLAR",
+    "imgs": "../prenda.jpeg",
+    "articulo": "501",
+    "descripcion": "POLAR MEDIO CIERRE",
+    "material": "POLAR",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "36",
+    "titulo": "CAMPERA",
+    "categoriaId": "POLAR",
+    "imgs": "../prenda.jpeg",
+    "articulo": "502",
+    "descripcion": "CAMPERA LISA POLAR",
+    "material": "POLAR",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "37",
+    "titulo": "CAMPEARA",
+    "categoriaId": "POLAR",
+    "imgs": "../prenda.jpeg",
+    "articulo": "504",
+    "descripcion": "CAMPERA CUADRILLE",
+    "material": "POLAR",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "38",
+    "titulo": "CHALECO",
+    "categoriaId": "POLAR",
+    "imgs": "../prenda.jpeg",
+    "articulo": "505",
+    "descripcion": "",
+    "material": "POLAR",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "39",
+    "titulo": "SWEETER",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "101",
+    "descripcion": "SWEETER CUELLO REDONDO",
+    "material": "PERLE",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "40",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "110",
+    "descripcion": "",
+    "material": "SOFIA",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "41",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "111",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "42",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "115",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "43",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "116",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "44",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "120",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "45",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "121",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "46",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "301",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "47",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "48",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "321",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "49",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "831",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "50",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "840",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "51",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "845",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "52",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "921",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "53",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "931",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  },
+  {
+    "id": "54",
+    "titulo": "CHOMBA RAYDA 24/1",
+    "categoriaId": "PUNTO",
+    "imgs": "../prenda.jpeg",
+    "articulo": "932",
+    "descripcion": "",
+    "material": "JERSEY",
+    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+  }
+]
