@@ -12,26 +12,6 @@ const ListCard = ({
 }) => {
   // Utiliza el estado local para gestionar el índice del slide actual.
   const [currentSlide, setCurrentSlide] = useState(0);
-  // Utiliza el estado local para gestionar el colapso/expandir de la descripción.
-
-  const [descripcionColapsoAbierto, setDescripcionColapsoAbierto] =
-    useState(false);
-  // Utiliza el estado local para gestionar el colapso/expandir del material.
-
-  const [materialColapsoAbierto, setMaterialColapsoAbierto] = useState(false);
-
-  // Función para mostrar/ocultar la descripción colapsable.
-
-  const toggleDescripcionColapso = () => {
-    setDescripcionColapsoAbierto(!descripcionColapsoAbierto);
-    setMaterialColapsoAbierto(false);
-  };
-  // Función para mostrar/ocultar el material colapsable.
-
-  const toggleMaterialColapso = () => {
-    setMaterialColapsoAbierto(!materialColapsoAbierto);
-    setDescripcionColapsoAbierto(false);
-  };
   // Función para cambiar el índice del slide.
   const handleSlideChange = (index) => {
     setCurrentSlide(index);
@@ -89,51 +69,30 @@ const ListCard = ({
       <div className="custom-card-content">
         {renderImages()}
         <div className="custom-card-text">
-          <h3 className="custom-card-title">{titulo}</h3>
+        <h3 className="custom-card-title">{titulo}</h3>
           <div className="custom-container-article">
-            <h4 className="custom-card-article-list">ARTICULO:</h4>
+            <h4 className="custom-card-article-list">ARTÍCULO:</h4>
             <p className="custom-card-article">{articulo}</p>
           </div>
 
-          {/* Descripcion Colapso */}
-          <div>
-            <button
-              className="custom-btn-colapso"
-              onClick={toggleDescripcionColapso}
-            >
-              {descripcionColapsoAbierto ? "CERRAR" : "DESCRIPCION"}
-            </button>
-            <div
-              className={`custom-colapso-content ${
-                descripcionColapsoAbierto ? "abierto" : ""
-              }`}
-            >
-              {descripcionColapsoAbierto && (
-                <p className="custom-card-descripcion">{descripcion}</p>
-              )}
+          {/* Descripción */}
+          {descripcion && (
+            <div className="custom-colapso-content">
+              <h4 className="custom-card-subtitle">DESCRIPCION:</h4>
+              <p className="custom-card-descripcion">{descripcion}</p>
             </div>
-          </div>
+          )}
 
-          {/* Material Colapso */}
-          <div>
-            <button
-              className="custom-btn-colapso"
-              onClick={toggleMaterialColapso}
-            >
-              {materialColapsoAbierto ? "CERRAR" : "MATERIAL"}
-            </button>
-            <div
-              className={`custom-colapso-content ${
-                materialColapsoAbierto ? "abierto" : ""
-              }`}
-            >
-              {materialColapsoAbierto && (
-                <p className="custom-card-material">{material}</p>
-              )}
+          {/* Material */}
+          {material && (
+            <div className="custom-colapso-content">
+              <h4 className="custom-card-subtitle">MATERIA PRIMA:</h4>
+              <p className="custom-card-material">{material}</p>
             </div>
-          </div>
+          )}
 
           {/* Paleta de Colores o Colores en Stock */}
+
           <div className="custom-card-colors">
             <h4 className="custom-card-colors-title">
               {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}

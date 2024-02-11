@@ -6,42 +6,42 @@ import Card from "./Card";
 const secciones = [
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/143.png",
     titulo: "REMERAS",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/150.png",
     titulo: "CHOMBAS LIZAS JERSEY-PIQUE",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/201.png",
     titulo: "CHOMBA RAYADA",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/207.png",
     titulo: "CHOMBA RAYADA JERSEY-DOBLE",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/150.png",
     titulo: "CHOMBA PIQUE RAYADO",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/604.png",
     titulo: "FRIZA",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/150.png",
     titulo: "POLAR",
   },
   {
     id: uuidv4(),
-    img: "./prenda.jpeg",
+    img: "../INV2024/845.png",
     titulo: "PUNTO",
   }
 ];

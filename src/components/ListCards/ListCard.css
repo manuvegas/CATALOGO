@@ -34,7 +34,7 @@
 
 .custom-card-text {
   flex: 1;
-  padding: 18px;
+  padding: 10px;
   display: flex;
   flex-direction: column; /* Apila los elementos en dispositivos móviles */
 }
@@ -50,7 +50,7 @@
   text-align: center;
 }
 .custom-card-article-list {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 8px 8px;
   display: inline-block;
   background-color: rgb(13, 13, 13);
@@ -58,30 +58,31 @@
 
 .custom-card-article {
   margin-left: 20px;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 800;
 }
-
-.custom-btn-colapso {
-  padding: 6px 8px;
-  border-radius: 5px;
+.custom-card-subtitle{
+  font-size: 1.5rem;
+  padding: 8px 8px;
+  display: inline-block;
   background-color: rgb(13, 13, 13);
-  color: white;
-  margin-bottom: 20px;
 }
 
 .custom-card-colors {
   padding: 8px 8px;
-  background-color: rgb(13, 13, 13);
   display: flex;
   flex-direction: column;
 }
 .custom-card-colors-title {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  padding: 8px 8px;
+  background-color: rgb(13, 13, 13);
+  text-align: center;
 }
 .custom-color-circles-container {
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-height: 90px; /* Altura máxima del contenedor */
   overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
@@ -89,6 +90,7 @@
 
 .custom-color-circles {
   display: flex;
+  align-items: center;
   margin-top: 5px;
 }
 
@@ -149,6 +151,7 @@
   background-color: #333;
 }
 
+
 .color-palette {
   display: flex;
   flex-direction: column;
@@ -156,8 +159,8 @@
 }
 
 .color-box {
-  width: 70%;
-  height: 30px;
+  width: 15rem;
+  height: 40px;
   border-radius: 5px;
 }
 
@@ -189,10 +192,12 @@
 
   .custom-card-article-list,
   .custom-card-article,
-  .custom-btn-colapso,
+  .custom-card-subtitle,
   .custom-card-colors-title {
-    font-size: 1rem;
-    margin: 5px 0; /* Añade un pequeño margen entre elementos */
+    font-size: 1.1rem;
+  }
+  .custom-card-article{
+    font-size: 2rem;
   }
 
   .custom-color-circle {
@@ -207,6 +212,7 @@
   .custom-carousel-images {
     width: 100%;
   }
+
 
   .custom-carousel-dot {
     width: 25px;
