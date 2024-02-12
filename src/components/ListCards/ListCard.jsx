@@ -69,7 +69,7 @@ const ListCard = ({
       <div className="custom-card-content">
         {renderImages()}
         <div className="custom-card-text">
-        <h3 className="custom-card-title">{titulo}</h3>
+          <h3 className="custom-card-title">{titulo}</h3>
           <div className="custom-container-article">
             <h4 className="custom-card-article-list">ARTÍCULO:</h4>
             <p className="custom-card-article">{articulo}</p>
@@ -93,6 +93,7 @@ const ListCard = ({
 
           {/* Paleta de Colores o Colores en Stock */}
 
+          {/* Paleta de Colores o Colores en Stock */}
           <div className="custom-card-colors">
             <h4 className="custom-card-colors-title">
               {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}
@@ -128,6 +129,10 @@ const ListCard = ({
                   ></div>
                 )}
               </div>
+            )}
+            {/* Si no hay paleta ni color definido, mostrar "Color Único" */}
+            {!paleta && !color && (
+              <p className="custom-card-colors-title">TODAS LAS VARIANTES EN FOTO</p>
             )}
           </div>
         </div>

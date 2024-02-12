@@ -5,29 +5,46 @@
     "categoriaId": "REMERAS",
     "imgs": "../INV2024/131.png",
     "articulo": "131",
-    "descripcion": "",
+    "descripcion": "REMERA CUELLO REDONDO,JERSEY 100% ALGODON",
     "material": "JERSEY",
-    "color": ["BLACK","BLUE","#7D6608","#013619 ","#370301","#53B981","#F1948A"]
+    "color": [
+      "#030303",
+      "#06113E",
+      "#7D6608",
+      "#013619 ",
+      "#470900",
+      "#53B981",
+      "#F1948A",
+      "CYAN"
+    ]
   },
   {
     "id": "2",
     "titulo": "REMERA PANAL",
     "categoriaId": "REMERAS",
-    "imgs": ["../INV2024/143.png","../INV2024/143A.png","../INV2024/143B.png"],
+    "imgs": [
+      "../INV2024/143.png",
+      "../INV2024/143A.png",
+      "../INV2024/143B.png"
+    ],
     "articulo": "143",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["BLACK", "#AC9C7D", "#A6ACAF"]
+    "descripcion": "REMERA CUELLO REDONDO,100% ALGODON",
+    "material": "JERSEY PANAL",
+    "color": ["BLACK", "#6A4E35", "#A6ACAF"]
   },
   {
     "id": "3",
-    "titulo": "REMERA",
+    "titulo": "REMERA CON CARTERA",
     "categoriaId": "REMERAS",
-    "imgs": ["../INV2024/144.png","../INV2024/144A.png","../INV2024/144B.png"],
+    "imgs": [
+      "../INV2024/144.png",
+      "../INV2024/144A.png",
+      "../INV2024/144B.png"
+    ],
     "articulo": "144",
-    "descripcion": "REMERA CON CARTERA PANAL",
-    "material": "JERSEY",
-    "color": ["BLACK", "#AC9C7D", "#A6ACAF"]
+    "descripcion": "REMERA CON CARTERA,100% ALGODON",
+    "material": "JERSEY PANAL",
+    "color": ["BLACK", "#6A4E35", "#A6ACAF"]
   },
   {
     "id": "4",
@@ -35,60 +52,78 @@
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
     "imgs": "../INV2024/150.png",
     "articulo": "150",
-    "descripcion": "CHOMBA LISA CON CUELLO VIVO",
+    "descripcion": "CHOMBA LISA CON CUELLO VIVO,100% ALGODON",
     "material": "JERSEY",
-    "color": ["BLACK", "BLUE", "#00FBFF", "#013619 ", "#FFE800"]
+    "color": ["BLACK", "#0B182C", "#00FBFF", "#293B18", "#FFE800"]
   },
   {
     "id": "5",
-    "titulo": "CHOMBA LISA",
+    "titulo": "CHOMBA 1/2 CIERRE LISA",
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
-    "imgs": ["../INV2024/151.png","../INV2024/151A.png","../INV2024/151B.png"],
+    "imgs": [
+      "../INV2024/151.png",
+      "../INV2024/151A.png",
+      "../INV2024/151B.png"
+    ],
     "articulo": "151",
-    "descripcion": "CHOMBA LISA MEDIO CIERRE 100% ALGODON,CIERRE METALICO,TALLES DESDE EL S AL XXL,CUELLO AL TONO",
+    "descripcion": "CHOMBA LISA MEDIO CIERRE,100% ALGODON,CIERRE METALICO,CUELLO AL TONO",
     "material": "PIQUE",
-    "color": ["", "", "", ""]
+    "color": [
+      "BLACK",
+      "WHITE",
+      "#020D1E",
+      "#4C5D7C",
+      "CYAN",
+      "#293B18",
+      "#1C352C",
+      "#DBBC7E",
+      "#84AB8D"
+    ]
   },
- 
+
   {
     "id": "7",
     "titulo": "CHOMBA 1/2 CIERRE",
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
     "imgs": "../INV2024/153.png",
     "articulo": "153",
-    "descripcion": "",
+    "descripcion": "CHOMBA MEDIO CIERRE,CUELLO CONTRATONO CON CIERRE METALICO,100% ALGODON",
     "material": "OTTOMAN",
-    "color": ["BLACK", ""]
+    "color": ["BLACK", "#466042"]
   },
   {
     "id": "8",
     "titulo": "CHOMBA LISA",
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
-    "imgs": ["../INV2024/154.png","../INV2024/154A.png"],
+    "imgs": ["../INV2024/154.png", "../INV2024/154A.png"],
     "articulo": "154",
-    "descripcion": "",
+    "descripcion": "CHOMBA LISA CUELLO AL TONO,100% ALGODON",
     "material": "JERSEY SNOWDON",
-    "color": ["BLACK", "BLUE", "#370301", "GREEN"]
+    "color": ["BLACK", "#060B27", "#470900", "#324833"]
   },
   {
     "id": "9",
     "titulo": "CHOMBA LISA",
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
-    "imgs": ["../INV2024/155.png","../INV2024/155A.png","../INV2024/155B.png"],
+    "imgs": [
+      "../INV2024/155.png",
+      "../INV2024/155A.png",
+      "../INV2024/155B.png"
+    ],
     "articulo": "155",
-    "descripcion": "",
+    "descripcion": "CHOMBA LISA CON CUELLO CONTRATONO,100% ALGODON",
     "material": "JERSEY ARTIZAN",
-    "color": ["BLACK", "BLUE", "#013619 ", "#CDB370", "#2A2004"]
+    "color": ["BLACK", "#020D1E", "#013619 ", "#C7AD82", "#2A2004"]
   },
   {
     "id": "10",
     "titulo": "CHOMBA 1/2 CIERRE",
     "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
-    "imgs": ["../INV2024/156.png","../INV2024/156A.png"],
+    "imgs": ["../INV2024/156.png", "../INV2024/156A.png"],
     "articulo": "156",
-    "descripcion": "",
+    "descripcion": "CHOMBA MEDIO CIERRE,100% ALGODON,CUELLO AL TONO CON CIERRE METALICO",
     "material": "JERSEY FREEDOM",
-    "color": ["BLACK", "BLUE", "#2A2A2A", "#225E06"]
+    "color": ["BLACK", "#081020", "#071806", "#2A2A2A"]
   },
   {
     "id": "11",
@@ -96,19 +131,17 @@
     "categoriaId": "CHOMBA RAYADA",
     "imgs": ["../INV2024/201.png", "../INV2024/201A.png"],
     "articulo": "201",
-    "descripcion": "",
-    "material": "JERSEY",
-    "paleta": "WHITE"
+    "descripcion": "JERSEY RAYADO, 100% ALGODON",
+    "material": "JERSEY"
   },
   {
     "id": "12",
     "titulo": "CHOMBA RAYADA 24/1",
     "categoriaId": "CHOMBA RAYADA",
-    "imgs": ["../INV2024/202.png","../INV2024/202A.png"],
+    "imgs": ["../INV2024/202.png", "../INV2024/202A.png"],
     "articulo": "202",
-    "descripcion": "",
-    "material": "JERSEY",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "JERSEY RAYADO, 100% ALGODON",
+    "material": "JERSEY"
   },
   {
     "id": "13",
@@ -116,149 +149,169 @@
     "categoriaId": "CHOMBA RAYADA",
     "imgs": ["../INV2024/203.png", "../INV2024/203A.png"],
     "articulo": "203",
-    "descripcion": "",
+    "descripcion": "JERSEY RAYADO, 100% ALGODON",
     "material": "JERSEY",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "paleta": ["BLACK", "GREY", "#333D32"]
   },
   {
     "id": "14",
     "titulo": "CHOMBA RAYADA 24/1",
     "categoriaId": "CHOMBA RAYADA",
-    "imgs": ["../INV2024/204.png","../INV2024/204A.png"],
+    "imgs": ["../INV2024/204.png", "../INV2024/204A.png"],
     "articulo": "204",
-    "descripcion": "",
+    "descripcion": "JERSEY RAYADO, 100% ALGODON",
     "material": "JERSEY",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "paleta": ["#052C18", "WHITE", ""]
   },
   {
     "id": "15",
     "titulo": "CHOMBA RAYADA",
     "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
-    "imgs": ["../INV2024/207.png","../INV2024/207A.png","../INV2024/207B.png"],
+    "imgs": [
+      "../INV2024/207.png",
+      "../INV2024/207A.png",
+      "../INV2024/207B.png"
+    ],
     "articulo": "207",
-    "descripcion": "",
-    "material": "JERSEY DOBLE",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CHOMBA RAYADA JERSEY DOBLE, 100% ALGODON",
+    "material": "JERSEY DOBLE"
   },
   {
     "id": "16",
     "titulo": "CHOMBA RAYADA",
     "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
-    "imgs": ["../INV2024/208.png","../INV2024/208A.png","../INV2024/208B.png"],
+    "imgs": [
+      "../INV2024/208.png",
+      "../INV2024/208A.png",
+      "../INV2024/208B.png"
+    ],
     "articulo": "208",
-    "descripcion": "",
-    "material": "JERSEY DOBLE",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CHOMBA RAYADA JERSEY DOBLE, 100% ALGODON",
+    "material": "JERSEY DOBLE"
   },
   {
     "id": "17",
     "titulo": "CHOMBA RAYADA ",
     "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
-    "imgs": "",
+    "imgs": "../INV2024/209.png",
     "articulo": "209",
-    "descripcion": "",
-    "material": "JERSEY DOBLE",
-    "paleta": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CHOMBA RAYADA JERSEY DOBLE, 100% ALGODON",
+    "material": "JERSEY DOBLE"
   },
   {
     "id": "18",
     "titulo": "CHOMBA RAYADA",
     "categoriaId": "CHOMBA PIQUE RAYADO",
-    "imgs": "",
+    "imgs": [
+      "../INV2024/251.png",
+      "../INV2024/251A.png",
+      "../INV2024/251B.png"
+    ],
     "articulo": "251",
-    "descripcion": "",
-    "material": "PIQUE",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CHOMBA RAYADA,100% ALGODON",
+    "material": "PIQUE"
   },
   {
     "id": "19",
     "titulo": "MEDIO CIERRE",
     "categoriaId": "FRIZA",
-    "imgs": "",
+    "imgs": "../INV2024/431.png",
     "articulo": "431",
-    "descripcion": "CUELLO RAYADO SIN BOLSILLO",
+    "descripcion": "MEDIO CIERRE CON CUELLO RAYADO SIN BOLSILLO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#061035", "#3160AF"]
   },
   {
     "id": "20",
-    "titulo": "MEDIO CIERRE ",
+    "titulo": "MEDIO CIERRE",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/434.png","../INV2024/434A.png","../INV2024/434B.png"],
+    "imgs": [
+      "../INV2024/434.png",
+      "../INV2024/434A.png",
+      "../INV2024/434B.png"
+    ],
     "articulo": "434",
-    "descripcion": "",
+    "descripcion": "MEDIO CIERE ESTAMPADA CON BOLSILLO INVISIBLE Y CIERRE METAALICO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA ESTAMPADA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["#191A1A", "#8D9095", "#683A07"]
   },
   {
     "id": "21",
-    "titulo": "BUZO",
+    "titulo": "BUZO CUELLO ALTO",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/435.png","../INV2024/435A.png"],
+    "imgs": ["../INV2024/435.png", "../INV2024/435A.png"],
     "articulo": "435",
-    "descripcion": "BUZO CUELLO ALTO CON BOTONES",
+    "descripcion": "BUZO CUELLO ALTO CON BOTONES,50% ALGODON 50% POLIESTER",
     "material": "FRIZA SNOW",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["#83868A", "#C0AD9A", "#3B415D", "#212121", "#7BA277"]
   },
   {
     "id": "22",
-    "titulo": "CAMPERA",
+    "titulo": "CAMPERA UNIVERSITARIA",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/470.png","../INV2024/470A.png"],
+    "imgs": ["../INV2024/470.png", "../INV2024/470A.png"],
     "articulo": "470",
-    "descripcion": "CAMPERA UNIVERSITARIA",
+    "descripcion": "CAMPERA UNIVERSITARIA,MANGAS CONTRA TONO CON CUELLO BAJO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#262626", "#08123A", "MOSTAZA"]
   },
   {
     "id": "23",
     "titulo": "CAMPERA GAMUZADA",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/471.png","../INV2024/471A.png"],
+    "imgs": ["../INV2024/471.png", "../INV2024/471A.png"],
     "articulo": "471",
-    "descripcion": "CAMPERA GAMUZADA ESTAMPADA",
+    "descripcion": "CAMPERA GAMUZADA ESTAMPADA,50% ALGODON 50% POLIESTER,CUELLO BAJO",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#203168", "#9C5F32"]
   },
   {
     "id": "24",
     "titulo": "CAMPERA C/CAPUCHA",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/472.png","../INV2024/472A.png","../INV2024/472B.png"],
+    "imgs": [
+      "../INV2024/472.png",
+      "../INV2024/472A.png",
+      "../INV2024/472B.png"
+    ],
     "articulo": "472",
-    "descripcion": "CAMPERA CON CAPUCHA LISO",
+    "descripcion": "CAMPERA CON CAPUCHA LISO,50% ALGONDO 50% POLIESTER,",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#0C1347", "#1D1D1D", "#77B4ED", "#354D12"]
   },
   {
     "id": "25",
     "titulo": "CHOMBA FRIZA",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/473.png","../INV2024/473A.png"],
+    "imgs": ["../INV2024/473.png", "../INV2024/473A.png"],
     "articulo": "473",
-    "descripcion": "",
+    "descripcion": "CHOMBA FRIZA,CON O SIN BOLSILLO,50% ALGODON 50% POLIESTER Y CUELLO CONTRATONO",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#0C1347", "#1D1D1D", "#3D4C6C"]
   },
   {
     "id": "26",
     "titulo": "CAMPERA ESTAMPADA",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/474.png","../INV2024/474A.png","../INV2024/474B.png"],
+    "imgs": [
+      "../INV2024/474.png",
+      "../INV2024/474A.png",
+      "../INV2024/474B.png"
+    ],
     "articulo": "474",
-    "descripcion": "",
+    "descripcion": "CAMPERA ESTAMAPADA,50% ALGODON 50% POLIESTER CON CUELLO BAJO Y BOLSILLO INVISIBLE",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#0C1347"]
   },
   {
     "id": "27",
     "titulo": "CAMPERA ESCOCESA",
     "categoriaId": "FRIZA",
-    "imgs": "",
+    "imgs": ["../INV2024/475.jpg", "../INV2024/475A.jpg"],
     "articulo": "475",
-    "descripcion": "CAMPERA ESTILO ESCOCESA",
+    "descripcion": "CAMPERA ESTILO ESCOCESA,CUELLO ALTO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["", "", "", ""]
   },
   {
     "id": "28",
@@ -266,19 +319,19 @@
     "categoriaId": "FRIZA",
     "imgs": "",
     "articulo": "476",
-    "descripcion": "",
+    "descripcion": "CAMPERA ESTAMPADA CON CUELLO ALTO,BOLSILLO INVISIBLE,50% ALGODON Y 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#102450"]
   },
   {
     "id": "29",
-    "titulo": "CAMPERA",
+    "titulo": "CAMPERA CUELLO BAJO",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/478.png","../INV2024/478A.png"],
+    "imgs": ["../INV2024/478.png", "../INV2024/478A.png"],
     "articulo": "478",
-    "descripcion": "CAMPERA CUELLO BAJO",
+    "descripcion": "CAMPERA CUELLO BAJO MATELASSE,50% ALGODON 50% POLIESTER",
     "material": "MATELASSE BRICK",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#1C2906", "#4F4006", "#BDBDBB"]
   },
   {
     "id": "30",
@@ -286,69 +339,85 @@
     "categoriaId": "FRIZA",
     "imgs": "../INV2024/479.png",
     "articulo": "479",
-    "descripcion": "CAMPERA CON CUELLO INTERIOR CONTRATONO",
+    "descripcion": "CAMPERA CON CUELLO INTERIOR RAYADO,CUELLO ALTO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#061035", "#3160AF"]
   },
   {
     "id": "31",
-    "titulo": "CAMPERA",
+    "titulo": "CAMPERA CUELLO ALTO",
     "categoriaId": "FRIZA",
     "imgs": "",
     "articulo": "480",
-    "descripcion": "CAMPERA CUELLO ALTO",
+    "descripcion": "CAMPERA CUELLO ALTO MATELASSE,50% ALGODON 50% POLIESTER",
     "material": "MATELASSE BRICK",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#1C2906", "#4F4006", "#BDBDBB"]
   },
   {
     "id": "32",
-    "titulo": "BUZO",
+    "titulo": "BUZO CUADRILLE",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/601.png","../INV2024/601A.png"],
+    "imgs": ["../INV2024/601.png", "../INV2024/601A.png"],
     "articulo": "601",
-    "descripcion": "BUZO CUELLO REDONDO CUADRILLE",
+    "descripcion": "BUZO CUELLO REDONDO CUADRILLE,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#050B57", "#F5E79C"]
   },
   {
     "id": "33",
     "titulo": "BUZO LISO",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/602.png","../INV2024/602A.png","../INV2024/602B.png"],
+    "imgs": [
+      "../INV2024/602.png",
+      "../INV2024/602A.png",
+      "../INV2024/602B.png"
+    ],
     "articulo": "602",
-    "descripcion": "BUZO CUELLO REDONDO LISO",
+    "descripcion": "BUZO CUELLO REDONDO LISO,50% ALGODON 50% POLIESTER",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": [
+      "BLACK",
+      "#050B57",
+      "#3160AF",
+      "CYAN",
+      "#333333",
+      "#056F32",
+      "#C2A435",
+      "#C6BD9A",
+      "#6F5805",
+      "#36470B",
+      "#58618B"
+    ]
   },
   {
     "id": "33",
     "titulo": "BUZO",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/604.png","../INV2024/604A.png"],
+    "imgs": ["../INV2024/604.png", "../INV2024/604A.png"],
     "articulo": "604",
-    "descripcion": "BUZO CUELLO REDONDO LISO",
+    "descripcion": "BUZO CUELLO REDONDO MATELASSE,50% ALGODON 50% POLIESTER",
     "material": "MATELASSE BRICK",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#1C2906", "#4F4006", "#BDBDBB"]
   },
   {
     "id": "34",
     "titulo": "JOGGUIN",
     "categoriaId": "FRIZA",
-    "imgs": ["../INV2024/608.png","../INV2024/608A.png"],
+    "imgs": ["../INV2024/608.png", "../INV2024/608A.png"],
     "articulo": "608",
-    "descripcion": "PANTALON JOGGUIN SEMI-RECTO",
+    "descripcion": "PANTALON JOGGUIN SEMI-RECTO,50% ALGODON 50% POLIESTER CON CORDON AJUSTABLE",
     "material": "FRIZA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#2C2C2F", "#080E2B", "#454E76"]
   },
   {
     "id": "35",
     "titulo": "POLAR",
     "categoriaId": "POLAR",
-    "imgs": ["../INV2024/501.png","../INV2024/501A.png"],
+    "imgs": ["../INV2024/501.png", "../INV2024/501A.png"],
     "articulo": "501",
-    "descripcion": "POLAR MEDIO CIERRE",
+    "descripcion": "POLAR MEDIO CIERRE,50% ALGODON 50% POLIESTER SIN BOLSILLO,PUÑO CON ELASTICO",
     "material": "POLAR",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#060C25", "#3A57A7", "#1B3206", "#474747", "#A6A58A"]
   },
   {
     "id": "36",
@@ -356,158 +425,168 @@
     "categoriaId": "POLAR",
     "imgs": "../INV2024/502.png",
     "articulo": "502",
-    "descripcion": "CAMPERA LISA POLAR",
+    "descripcion": "CAMPERA LISA POLAR,50% ALGODON 50% POLIESTER CON BOLSILLO",
     "material": "POLAR",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#060C25", "#3A57A7", "#1B3206", "#474747", "#A6A58A"]
   },
   {
     "id": "37",
     "titulo": "CAMPEARA",
     "categoriaId": "POLAR",
-    "imgs": "",
+    "imgs": ["../INV2024/504.png", "../INV2024/504A.png"],
     "articulo": "504",
-    "descripcion": "CAMPERA CUADRILLE",
+    "descripcion": "CAMPERA CUADRILLE,3 BOLSILLO,50% ALGODON 50% POLIESTER,CORDERITO INTERNO",
     "material": "POLAR",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["WHITE", "BLACK", "#93810C"]
   },
   {
     "id": "38",
     "titulo": "CHALECO",
     "categoriaId": "POLAR",
-    "imgs": ["../INV2024/505.png","../INV2024/505A.png"],
+    "imgs": ["../INV2024/505.png", "../INV2024/505A.png"],
     "articulo": "505",
-    "descripcion": "",
+    "descripcion": "CHALECO CON BOLSILLO,50% ALGODON 50% POLIESTER",
     "material": "POLAR",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#060C25", "#3A57A7", "#1B3206", "#474747", "#A6A58A"]
   },
   {
     "id": "39",
     "titulo": "SWEETER",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/101.png","../INV2024/101A.png"],
+    "imgs": ["../INV2024/101.png", "../INV2024/101A.png"],
     "articulo": "101",
     "descripcion": "SWEETER CUELLO REDONDO",
     "material": "PERLE",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["BLACK", "#02022E", "#1A1E01", "#CFC9A4"]
   },
   {
     "id": "40",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER RAYADO",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/110.png","../INV2024/110A.png"],
+    "imgs": ["../INV2024/110.png", "../INV2024/110A.png"],
     "articulo": "110",
-    "descripcion": "",
+    "descripcion": "SWEETER CUELLO REDONDO",
     "material": "SOFIA",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "color": ["#262625", "#060835", "#140F02"]
   },
   {
     "id": "41",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER RAYADO",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/111.png","../INV2024/111A.png"],
+    "imgs": ["../INV2024/111.png", "../INV2024/111A.png"],
     "articulo": "111",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER CUELLO REDONDO",
+    "material": "SOFIA",
+    "color": ["#B8AE74", "#656660"]
   },
   {
     "id": "42",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER LISO",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/115.png","../INV2024/115A.png"],
+    "imgs": ["../INV2024/115.png", "../INV2024/115A.png"],
     "articulo": "115",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER CUELLO REDONDO LISO",
+    "material": "ALGODON",
+    "color": ["#050537", "#183B08", "#F3F00B", "#370512"]
   },
   {
     "id": "43",
-    "titulo": "SWEATTER",
+    "titulo": "SWEATTER LISO",
     "categoriaId": "PUNTO",
     "imgs": "",
     "articulo": "116",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER ESCOTE V",
+    "material": "",
+    "color": ["BLACK", "#010539","#9E9C9C"]
   },
   {
     "id": "44",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER LISO",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/120.png","../INV2024/120A.png"],
+    "imgs": ["../INV2024/120.png", "../INV2024/120A.png"],
     "articulo": "120",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER CUELLO REDONDO LISO",
+    "material": "ALGODON",
+    "color": [
+      "BLACK",
+      "#050B57",
+      "#C2A435",
+      "#010539",
+      "#813503",
+      "#DC95A2",
+      "#153503",
+      "RED"
+      
+    ]
   },
   {
     "id": "46",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER LISO",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/301.png","../INV2024/301A.png"],
+    "imgs": ["../INV2024/301.png", "../INV2024/301A.png"],
     "articulo": "301",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER CUELLO REDONDO LISO SLIM FIT",
+    "material": "ELASTOMERO",
+    "color": ["#0E143A", "#816022", "#5A5A5A"]
   },
   {
     "id": "48",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "SWEATTER LISO",
     "categoriaId": "PUNTO",
-    "imgs":"../INV2024/321.png",
+    "imgs": "../INV2024/321.png",
     "articulo": "321",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "SWEETER LISO ESCOTE V",
+    "material": "BREMER",
+    "color": ["BLACK", "#0E143A", "#2D5187", "#1B0644","#82B976","#D5C85E"]
   },
   {
     "id": "49",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "CAMPERA LISA",
     "categoriaId": "PUNTO",
     "imgs": "",
     "articulo": "831",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CAMPERA LISA",
+    "material": "PERLE",
+    "color": ["BLACK", "#0E143A", "#816022"]
   },
   {
     "id": "51",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "CUELLO ALTO",
     "categoriaId": "PUNTO",
     "imgs": "../INV2024/845.png",
     "articulo": "845",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "BUZO CUELLO ALTO CON BOTONES LISO",
+    "material": "ALGODON",
+    "color": ["#191918", "#11143E", "#2D0419", "#5D5C5C"]
   },
   {
     "id": "52",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "MEDIO CIERE",
     "categoriaId": "PUNTO",
     "imgs": "",
     "articulo": "921",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "MEDIO CIERRE",
+    "material": "PERLE",
+    "color": ["BLACK", "#A87C18", "#0F1570"]
   },
   {
     "id": "53",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "CAMPERA LISA",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/931.png","../INV2024/931A.png"],
+    "imgs": ["../INV2024/931.png", "../INV2024/931A.png"],
     "articulo": "931",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CAMPERA LISA CUELLO FANTASIA",
+    "material": "SOFIA",
+    "color": ["BLACK","#A87C18","#051C0A"]
   },
   {
     "id": "54",
-    "titulo": "CHOMBA RAYDA 24/1",
+    "titulo": "CAMPERA LISA",
     "categoriaId": "PUNTO",
-    "imgs": ["../INV2024/932.png","../INV2024/932A.png"],
+    "imgs": ["../INV2024/932.png", "../INV2024/932A.png"],
     "articulo": "932",
-    "descripcion": "",
-    "material": "JERSEY",
-    "color": ["WHITE", "BLACK", "BLUE", "MOSTAZA"]
+    "descripcion": "CAMPERA LISA CUELLO ALTO",
+    "material": "MOULINE",
+    "color": ["#1E201E", "#462F09", "#9A9998"]
   }
 ]

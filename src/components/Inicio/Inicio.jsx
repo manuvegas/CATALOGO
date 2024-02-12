@@ -5,7 +5,7 @@ import { Carousel } from "react-bootstrap";
 import { v4 as uuidv4 } from 'uuid';
 import "animate.css/animate.min.css";
 
-const images = [{ id: uuidv4(), src: "/CATALOGO/invierno2024.png", to: "/Inv2024-Home" }];
+const images = [{ id: uuidv4(), src: "/CATALOGO/invierno2024.jpg", to: "/Inv2024-Home" }];
 
 const Inicio = () => {
   return (

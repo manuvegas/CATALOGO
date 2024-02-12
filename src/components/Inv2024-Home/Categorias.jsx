@@ -36,7 +36,7 @@ const secciones = [
   },
   {
     id: uuidv4(),
-    img: "../INV2024/150.png",
+    img: "../INV2024/504.png",
     titulo: "POLAR",
   },
   {
