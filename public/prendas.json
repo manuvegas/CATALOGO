@@ -49,7 +49,7 @@
   {
     "id": "4",
     "titulo": "CHOMBA LISA",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": "../INV2024/150.png",
     "articulo": "150",
     "descripcion": "CHOMBA LISA CON CUELLO VIVO,100% ALGODON",
@@ -59,7 +59,7 @@
   {
     "id": "5",
     "titulo": "CHOMBA 1/2 CIERRE LISA",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": [
       "../INV2024/151.png",
       "../INV2024/151A.png",
@@ -84,7 +84,7 @@
   {
     "id": "7",
     "titulo": "CHOMBA 1/2 CIERRE",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": "../INV2024/153.png",
     "articulo": "153",
     "descripcion": "CHOMBA MEDIO CIERRE,CUELLO CONTRATONO CON CIERRE METALICO,100% ALGODON",
@@ -94,7 +94,7 @@
   {
     "id": "8",
     "titulo": "CHOMBA LISA",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": ["../INV2024/154.png", "../INV2024/154A.png"],
     "articulo": "154",
     "descripcion": "CHOMBA LISA CUELLO AL TONO,100% ALGODON",
@@ -104,7 +104,7 @@
   {
     "id": "9",
     "titulo": "CHOMBA LISA",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": [
       "../INV2024/155.png",
       "../INV2024/155A.png",
@@ -118,7 +118,7 @@
   {
     "id": "10",
     "titulo": "CHOMBA 1/2 CIERRE",
-    "categoriaId": "CHOMBAS LIZAS JERSEY-PIQUE",
+    "categoriaId": "CHOMBAS LISAS JERSEY-PIQUE",
     "imgs": ["../INV2024/156.png", "../INV2024/156A.png"],
     "articulo": "156",
     "descripcion": "CHOMBA MEDIO CIERRE,100% ALGODON,CUELLO AL TONO CON CIERRE METALICO",
@@ -151,7 +151,7 @@
     "articulo": "203",
     "descripcion": "JERSEY RAYADO, 100% ALGODON",
     "material": "JERSEY",
-    "paleta": ["../INV2024/203Paleta.jpg","../INV2024/203Paleta.jpg"]
+    "paleta": ["../INV2024/203Paleta.jpg", "../INV2024/203Paleta.jpg"]
   },
   {
     "id": "14",
@@ -166,7 +166,7 @@
   {
     "id": "15",
     "titulo": "CHOMBA RAYADA",
-    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "categoriaId": " JERSEY-DOBLE",
     "imgs": [
       "../INV2024/207.png",
       "../INV2024/207A.png",
@@ -179,7 +179,7 @@
   {
     "id": "16",
     "titulo": "CHOMBA RAYADA",
-    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "categoriaId": " JERSEY-DOBLE",
     "imgs": [
       "../INV2024/208.png",
       "../INV2024/208A.png",
@@ -192,7 +192,7 @@
   {
     "id": "17",
     "titulo": "CHOMBA RAYADA ",
-    "categoriaId": "CHOMBA RAYADA JERSEY-DOBLE",
+    "categoriaId": " JERSEY-DOBLE",
     "imgs": "../INV2024/209.png",
     "articulo": "209",
     "descripcion": "CHOMBA RAYADA JERSEY DOBLE, 100% ALGODON",
@@ -497,7 +497,7 @@
     "articulo": "116",
     "descripcion": "SWEETER ESCOTE V",
     "material": "",
-    "color": ["BLACK", "#010539","#9E9C9C"]
+    "color": ["BLACK", "#010539", "#9E9C9C"]
   },
   {
     "id": "44",
@@ -516,7 +516,6 @@
       "#DC95A2",
       "#153503",
       "RED"
-      
     ]
   },
   {
@@ -537,7 +536,7 @@
     "articulo": "321",
     "descripcion": "SWEETER LISO ESCOTE V",
     "material": "BREMER",
-    "color": ["BLACK", "#0E143A", "#2D5187", "#1B0644","#82B976","#D5C85E"]
+    "color": ["BLACK", "#0E143A", "#2D5187", "#1B0644", "#82B976", "#D5C85E"]
   },
   {
     "id": "49",
@@ -577,7 +576,7 @@
     "articulo": "931",
     "descripcion": "CAMPERA LISA CUELLO FANTASIA",
     "material": "SOFIA",
-    "color": ["BLACK","#A87C18","#051C0A"]
+    "color": ["BLACK", "#A87C18", "#051C0A"]
   },
   {
     "id": "54",

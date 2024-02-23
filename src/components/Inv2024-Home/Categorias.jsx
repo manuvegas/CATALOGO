@@ -12,7 +12,7 @@ const secciones = [
   {
     id: uuidv4(),
     img: "../INV2024/150.png",
-    titulo: "CHOMBAS LIZAS JERSEY-PIQUE",
+    titulo: "CHOMBAS LISAS JERSEY-PIQUE",
   },
   {
     id: uuidv4(),
@@ -22,7 +22,7 @@ const secciones = [
   {
     id: uuidv4(),
     img: "../INV2024/207.png",
-    titulo: "CHOMBA RAYADA JERSEY-DOBLE",
+    titulo: " JERSEY-DOBLE",
   },
   {
     id: uuidv4(),
