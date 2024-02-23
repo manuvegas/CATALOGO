@@ -20,11 +20,12 @@ const ListPrendas = () => {
       .catch((error) => console.error("error al cargar los datos:", error));
   }, [titulo]);
 
-
-
   return (
     <>
-      <nav className="cardNav">
+      <h1 className="flex justify-center items-center pt-5  text-white text-3xl sm:text-5xl font-bold">
+        {titulo}
+      </h1>
+      <nav className="flex flex-row flex-wrap gap-3 pt-10 mx-auto max-w-[1800px]">
         {prendas.map((item) => (
           <ListCard
             id={item.id}
@@ -36,6 +37,7 @@ const ListPrendas = () => {
             paleta={item.paleta}
             color={item.color}
             key={item.id}
+            categoria={titulo}
           />
         ))}
       </nav>

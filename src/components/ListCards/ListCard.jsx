@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./ListCard.css";
 
 const ListCard = ({
   titulo,
@@ -45,12 +44,12 @@ const ListCard = ({
     if (Array.isArray(imgs) && imgs.length > 1) {
       return (
         <div
-          className="custom-carousel-container"
+          className="relative overflow-hidden w-full"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
         >
           <div
-            className="custom-carousel-images"
+            className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
             {imgs.map((img, index) => (
@@ -58,83 +57,120 @@ const ListCard = ({
                 key={index}
                 src={img}
                 alt={`Slide ${index + 1}`}
-                className="custom-carousel-image"
+                className="object-cover flex-shrink-0"
               />
             ))}
           </div>
-          <div className="custom-carousel-dots">
+          <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-1">
             {imgs.map((_, index) => (
               <div
                 key={index}
-                className={`custom-carousel-dot ${
-                  index === currentSlide ? "active" : ""
-                }`}
+                className={` cursor-pointer transition ${
+                  index === currentSlide ? "bg-gray-800" : ""
+                } rounded-full`}
                 onClick={() => handleSlideChange(index)}
               >
-                <img src={imgs[index]} alt={`Dot ${index + 1}`} />
+                <img
+                  src={imgs[index]}
+                  alt={`${index + 1}`}
+                  className="rounded-full w-14 h-14"
+                />
               </div>
             ))}
           </div>
         </div>
       );
     } else if (typeof imgs === "string") {
-      return <img src={imgs} alt={titulo} className="custom-card-image" />;
+      return <img src={imgs} alt={titulo} className="object-cover w-full" />;
+    } else if (paleta && Array.isArray(paleta)) {
+      const hasImages = paleta.some(
+        (item) => typeof item === "object" && item.img
+      );
+
+      if (hasImages) {
+        return (
+          <div className="flex items-center justify-center flex-wrap max-h-90px overflow-y-auto">
+            {paleta.map((item, index) => {
+              if (typeof item === "object" && item.img) {
+                return (
+                  <div
+                    key={index}
+                    className="w-10 h-10 mr-2 mb-2 rounded-full"
+                    style={{ backgroundImage: `url(${item.img})` }}
+                  ></div>
+                );
+              } else {
+                return null; // O puedes manejar colores si es necesario
+              }
+            })}
+          </div>
+        );
+      } else {
+        // Aquí puedes manejar el caso de la paleta de colores si es necesario
+        return null;
+      }
     }
-    return null;
   };
 
   return (
-    <div className="custom-card-container animate__animated animate__fadeInLeft">
-      <div className="custom-card-content">
+    <>
+    <div className="p-3 text-white flex w-[550px] mx-auto shadow-lg rounded overflow-hidden animate__animated animate__fadeInLeft">
+      <div className="flex flex-col flex-1">
         {renderImages()}
-        <div className="custom-card-text">
-          <h3 className="custom-card-title">{titulo}</h3>
-          <div className="custom-container-article">
-            <h4 className="custom-card-article-list">ARTÍCULO:</h4>
-            <p className="custom-card-article">{articulo}</p>
+        <div className="flex flex-col p-2 gap-3">
+          <h3 className="text-3xl font-bold text-center">{titulo}</h3>
+          <div className="flex flex-row items-center ">
+            <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
+              ARTÍCULO:
+            </h4>
+            <p className="ml-5 text-4xl font-semibold">{articulo}</p>
           </div>
 
           {descripcion && (
-            <div className="custom-colapso-content">
-              <h4 className="custom-card-subtitle">DESCRIPCION:</h4>
-              <p className="custom-card-descripcion">{descripcion}</p>
+            <div>
+              <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
+                DESCRIPCION:
+              </h4>
+              <p className="mt-2">{descripcion}</p>
             </div>
           )}
 
           {material && (
-            <div className="custom-colapso-content">
-              <h4 className="custom-card-subtitle">MATERIA PRIMA:</h4>
-              <p className="custom-card-material">{material}</p>
+            <div>
+              <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
+                MATERIA PRIMA:
+              </h4>
+              <p className="mt-2">{material}</p>
             </div>
           )}
 
-          <div className="custom-card-colors">
-            <h4 className="custom-card-colors-title">
+          <div className=" flex flex-col">
+            <h4 className="text-lg p-2 bg-[rgb(13,13,13)] text-center w-52 mb-3">
               {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}
             </h4>
             {paleta && Array.isArray(paleta) ? (
-              <div className="color-palette">
+              <div className="flex flex-col items-center">
                 {paleta.map((color, index) => (
                   <div
                     key={index}
-                    className="color-box"
+                    className="w-60 h-16 rounded-md"
                     style={{ backgroundColor: color.toLowerCase() }}
                   ></div>
                 ))}
               </div>
             ) : (
-              <div className="custom-color-circles-container">
+              <div className="flex items-center flex-wrap max-h-90px overflow-y-auto">
                 {Array.isArray(color) ? (
                   color.map((c, index) => (
                     <div
                       key={index}
-                      className="custom-color-circle"
+                      className="w-10 h-10 mr-2 mb-2 rounded-full"
                       style={{ backgroundColor: c.toLowerCase() }}
                     ></div>
                   ))
                 ) : (
                   <div
-                    className="custom-color-circle"
+                    className="w-10 h-10 rounded-full"
                     style={{
                       backgroundColor: color
                         ? color.toLowerCase()
@@ -145,14 +181,14 @@ const ListCard = ({
               </div>
             )}
             {!paleta && !color && (
-              <p className="custom-card-colors-title">
+              <p className="text-lg p-2 bg-[rgb(13,13,13)] text-center">
                 TODAS LAS VARIANTES EN FOTO
               </p>
             )}
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 

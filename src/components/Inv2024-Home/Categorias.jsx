@@ -48,8 +48,8 @@ const secciones = [
 const Categorias = () => {
   return (
     <>
-      <h2 className="titulo">INVIERNO 2024</h2>
-      <nav className="categoriaNav animate__animated animate__fadeInLeft">
+      <h2 className="flex justify-center items-center text-white text-3xl sm:text-5xl font-bold mt-8 mb-8">INVIERNO 2024</h2>
+      <nav className="flex flex-wrap gap-5 max-w-[1500px] mx-auto mb-20 justify-center items-center animate__animated animate__fadeInLeft">
         {secciones.map((item, index) => (
           <Card id={item.id} titulo={item.titulo} img={item.img} key={index} />
         ))}
