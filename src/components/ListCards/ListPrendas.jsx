@@ -22,10 +22,10 @@ const ListPrendas = () => {
 
   return (
     <>
-      <h1 className="flex justify-center items-center pt-5  text-white text-3xl sm:text-5xl font-bold">
+      <h1 className="flex justify-center items-center text-black pt-5 text-3xl sm:text-5xl font-extrabold">
         {titulo}
       </h1>
-      <nav className="flex flex-row flex-wrap gap-3 pt-10 mx-auto max-w-[1800px]">
+      <nav className="flex flex-row flex-wrap gap-3 pt-10 pb-10 mx-auto max-w-[1800px]">
         {prendas.map((item) => (
           <ListCard
             id={item.id}

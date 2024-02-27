@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import {
+  Pagination,
+  PaginationItem,
+  PaginationCursor,
+} from "@nextui-org/react";
 
 const ListCard = ({
   titulo,
@@ -14,11 +19,6 @@ const ListCard = ({
 
   const handleSlideChange = (index) => {
     setCurrentSlide(index);
-  };
-
-  const handleTouchStart = (e) => {
-    const touchDown = e.touches[0].clientX;
-    setTouchPosition(touchDown);
   };
 
   const handleTouchMove = (e) => {
@@ -43,11 +43,7 @@ const ListCard = ({
   const renderImages = () => {
     if (Array.isArray(imgs) && imgs.length > 1) {
       return (
-        <div
-          className="relative overflow-hidden w-full"
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-        >
+        <div className="relative overflow-hidden w-full">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -61,22 +57,20 @@ const ListCard = ({
               />
             ))}
           </div>
-          <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-1">
-            {imgs.map((_, index) => (
-              <div
-                key={index}
-                className={` cursor-pointer transition ${
-                  index === currentSlide ? "bg-gray-800" : ""
-                } rounded-full`}
-                onClick={() => handleSlideChange(index)}
-              >
-                <img
-                  src={imgs[index]}
-                  alt={`${index + 1}`}
-                  className="rounded-full w-14 h-14"
-                />
-              </div>
-            ))}
+          <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2">
+            <Pagination
+              total={imgs.length}
+              initialPage={currentSlide + 1}
+              onChange={(page) => handleSlideChange(page - 1)}
+              variant="flat"
+              className={{ cursor: "bg-dark" }}
+              simple
+            >
+              {imgs.map((_, index) => (
+                <PaginationItem key={index} />
+              ))}
+              <PaginationCursor />
+            </Pagination>
           </div>
         </div>
       );
@@ -114,81 +108,82 @@ const ListCard = ({
 
   return (
     <>
-    <div className="p-3 text-white flex w-[550px] mx-auto shadow-lg rounded overflow-hidden animate__animated animate__fadeInLeft">
-      <div className="flex flex-col flex-1">
-        {renderImages()}
-        <div className="flex flex-col p-2 gap-3">
-          <h3 className="text-3xl font-bold text-center">{titulo}</h3>
-          <div className="flex flex-row items-center ">
-            <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
-              ARTÍCULO:
-            </h4>
-            <p className="ml-5 text-4xl font-semibold">{articulo}</p>
-          </div>
-
-          {descripcion && (
-            <div>
+      <div className="p-3 text-white flex w-[550px] mx-auto shadow-lg rounded overflow-hidden animate__animated animate__fadeInLeft bg-neutral-950">
+        <div className="flex flex-col flex-1">
+          {renderImages()}
+          <div className="flex flex-col p-2 gap-3">
+            <h3 className="text-3xl font-extrabold text-center">{titulo}</h3>
+            <div className="flex flex-row items-center ">
               <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
-                DESCRIPCION:
+                ARTÍCULO:
               </h4>
-              <p className="mt-2">{descripcion}</p>
+              <p className="ml-5 text-4xl font-semibold">{articulo}</p>
             </div>
-          )}
 
-          {material && (
-            <div>
-              <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
-                MATERIA PRIMA:
-              </h4>
-              <p className="mt-2">{material}</p>
-            </div>
-          )}
-
-          <div className=" flex flex-col">
-            <h4 className="text-lg p-2 bg-[rgb(13,13,13)] text-center w-52 mb-3">
-              {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}
-            </h4>
-            {paleta && Array.isArray(paleta) ? (
-              <div className="flex flex-col items-center">
-                {paleta.map((color, index) => (
-                  <div
-                    key={index}
-                    className="w-60 h-16 rounded-md"
-                    style={{ backgroundColor: color.toLowerCase() }}
-                  ></div>
-                ))}
+            {descripcion && (
+              <div>
+                <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
+                  DESCRIPCION:
+                </h4>
+                <p className="mt-2 w-96">{descripcion}</p>
               </div>
-            ) : (
-              <div className="flex items-center flex-wrap max-h-90px overflow-y-auto">
-                {Array.isArray(color) ? (
-                  color.map((c, index) => (
+            )}
+
+            {material && (
+              <div>
+                <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
+                  MATERIA PRIMA:
+                </h4>
+                <p className="mt-2">{material}</p>
+              </div>
+            )}
+
+            <div className=" flex flex-col">
+              <h4 className="text-lg p-2 bg-[rgb(13,13,13)] text-center w-52 mb-3">
+                {paleta ? "PALETA DE COLORES:" : "COLORES EN STOCK:"}
+              </h4>
+              {paleta && Array.isArray(paleta) ? (
+                <div className="flex flex-col items-center">
+                  {paleta.map((color, index) => (
                     <div
                       key={index}
-                      className="w-10 h-10 mr-2 mb-2 rounded-full"
-                      style={{ backgroundColor: c.toLowerCase() }}
+                      className="w-60 h-16 rounded-md"
+                      style={{ backgroundColor: color.toLowerCase() }}
                     ></div>
-                  ))
-                ) : (
-                  <div
-                    className="w-10 h-10 rounded-full"
-                    style={{
-                      backgroundColor: color
-                        ? color.toLowerCase()
-                        : "transparent",
-                    }}
-                  ></div>
-                )}
-              </div>
-            )}
-            {!paleta && !color && (
-              <p className="text-lg p-2 bg-[rgb(13,13,13)] text-center">
-                TODAS LAS VARIANTES EN FOTO
-              </p>
-            )}
+                  ))}
+                </div>
+              ) : (
+                <div className="flex items-center flex-wrap max-h-90px overflow-y-auto">
+                  {Array.isArray(color) ? (
+                    color.map((c, index) => (
+                      <div
+                        key={index}
+                        className="w-10 h-10 mr-2 mb-2 rounded-full"
+                        style={{ backgroundColor: c.toLowerCase() }}
+                      ></div>
+                    ))
+                  ) : (
+                    <div
+                      className="w-10 h-10 rounded-full"
+                      style={{
+                        backgroundColor: color
+                          ? color.toLowerCase()
+                          : "transparent",
+                      }}
+                    ></div>
+                  )}
+                </div>
+              )}
+              {!paleta && !color && (
+                <p className="text-lg p-2 bg-[rgb(13,13,13)] text-center">
+                  TODAS LAS VARIANTES EN FOTO
+                </p>
+              )}
+            </div>
           </div>
         </div>
       </div>
-    </div></>
+    </>
   );
 };
 
