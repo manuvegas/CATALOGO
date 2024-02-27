@@ -20,7 +20,9 @@ const ListCard = ({
   const handleSlideChange = (index) => {
     setCurrentSlide(index);
   };
-
+  const handleTouchStart = (e) => {
+    setTouchPosition(e.touches[0].clientX);
+  };
   const handleTouchMove = (e) => {
     if (!touchPosition) {
       return;
@@ -43,7 +45,11 @@ const ListCard = ({
   const renderImages = () => {
     if (Array.isArray(imgs) && imgs.length > 1) {
       return (
-        <div className="relative overflow-hidden w-full">
+        <div
+          className="relative overflow-hidden w-full"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+        >
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -108,7 +114,7 @@ const ListCard = ({
 
   return (
     <>
-      <div className="p-3 text-white flex w-[550px] mx-auto shadow-lg rounded overflow-hidden animate__animated animate__fadeInLeft bg-neutral-950">
+      <div className="p-3 text-white flex w-[500px]  mx-auto shadow-lg rounded overflow-hidden animate__animated animate__fadeInLeft bg-neutral-950">
         <div className="flex flex-col flex-1">
           {renderImages()}
           <div className="flex flex-col p-2 gap-3">
@@ -125,7 +131,7 @@ const ListCard = ({
                 <h4 className="text-lg p-2 bg-[rgb(13,13,13)] inline-block">
                   DESCRIPCION:
                 </h4>
-                <p className="mt-2 w-96">{descripcion}</p>
+                <p className="mt-2">{descripcion}</p>
               </div>
             )}
 
